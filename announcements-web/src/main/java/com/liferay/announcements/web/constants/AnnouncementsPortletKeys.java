@@ -17,6 +17,7 @@ package com.liferay.announcements.web.constants;
 /**
  * @author Adolfo Pérez
  */
+// Here is a really cool fix
 public class AnnouncementsPortletKeys {
 
 	public static final String ALERTS =
