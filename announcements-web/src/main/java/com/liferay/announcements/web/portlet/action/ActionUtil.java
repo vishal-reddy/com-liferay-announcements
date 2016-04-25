@@ -50,4 +50,12 @@ public class ActionUtil {
 		getEntry(request);
 	}
 
+	public static void getEntry2(PortletRequest portletRequest, boolean LPEDELTA5)
+		throws Exception {
+
+		HttpServletRequest request = PortalUtil.getHttpServletRequest(
+			portletRequest);
+
+		getEntry(request);
+	}
 }
