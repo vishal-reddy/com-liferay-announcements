@@ -17,6 +17,7 @@ package com.liferay.announcements.web.constants;
 /**
  * @author Adolfo Pérez
  */
+//totally valid change but missing gradle files
 public class AnnouncementsPortletKeys {
 
 	public static final String ALERTS =
