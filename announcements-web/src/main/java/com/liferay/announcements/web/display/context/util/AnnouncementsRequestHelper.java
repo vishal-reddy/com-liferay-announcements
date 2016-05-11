@@ -14,6 +14,8 @@
 
 package com.liferay.announcements.web.display.context.util;
 
+import com.liferay.bookmarks.util.comparator.FolderIdComparator;
+
 import com.liferay.portal.kernel.display.context.util.BaseRequestHelper;
 import com.liferay.portal.kernel.model.Group;
 import com.liferay.portal.kernel.theme.ThemeDisplay;
@@ -38,6 +40,8 @@ public class AnnouncementsRequestHelper extends BaseRequestHelper {
 		if (_portletPreferences != null) {
 			return _portletPreferences;
 		}
+
+		String order = FolderIdComparator.getOrder();
 
 		HttpServletRequest request = getRequest();
 
